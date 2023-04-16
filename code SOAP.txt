@@ -1,0 +1,29 @@
+Message de requete
+
+<!-- message SOAP de requete au service web "MoyenneWS" -->
+<Envelope>
+<SOAP-ENV:HEADER/>
+<SOAP-BODY>
+  <CalculMoyenne>
+    
+    <note1>20.0</note1>
+    <note1>19.5</note2>
+
+  </CalculMoyenne>
+</SOAP-BODY>
+</Envelope>
+
+
+Message de reponse
+
+<!-- message SOAP de reponse au service web "MoyenneWS" -->
+<Envelope>
+<SOAP-ENV:HEADER/>
+<SOAP-BODY>
+  <CalculMoyenne>
+    
+    <moyenne>19.75</moyenne>
+
+  </CalculMoyenne>
+</SOAP-BODY>
+</Envelope>
